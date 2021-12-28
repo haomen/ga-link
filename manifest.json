@@ -1,0 +1,17 @@
+{
+  "name": "Gagaga Search",
+  "description": "Ga!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts": ["background.js"]},
+  "permissions": [
+    "<all_urls>", 
+    "webRequest",
+    "webRequestBlocking"],
+  "icons": {
+    "16": "/images/duck_16.png",
+    "32": "/images/duck_32.png",
+    "48": "/images/duck_48.png",
+    "128": "/images/duck_128.png"
+  }
+}
